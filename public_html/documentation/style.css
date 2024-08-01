@@ -1,17 +1,46 @@
 .container {
-    background-color:lightseagreen;
-    border-color:red;
-    border-width:10px;
+
+    border:4px solid red;
     width:750px;
-    margin-bottom:20px;
-    margin-left:30px;
-    padding:60px;
+    margin-bottom:200px;
+    margin-left:100px;
+    padding:200px 200px 600px 200px;
     font-size:32px;
     font-family:"Helvetica Neue", sans-serif;
     font-weight:bold;
-    color:white;
+    color:red;
+}
+
+.pwp {
+    margin-top:0;
+    margin-right:50px;
+    width:500px;
+    padding-left:100px;
+    padding-bottom:20px;
 }
 
 h1 {
     font-size:60px;
+    text-align:center;
+
+}
+
+.grid-left, .grid-right {
+    display:grid;
+}
+
+.container2 {
+    float:right;
+    margin-right:100px;
+    margin-top:-4950px;
+    border: 4px solid red;
+    padding:100px 200px 30px 200px;
+    width:750px;
+}
+
+.image-header {
+    font-family: "Helvetica Neue", sans-serif;
+    font-size:32px;
+    color:red;
+    text-align:center;
 }
