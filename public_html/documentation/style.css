@@ -1,0 +1,17 @@
+.container {
+    background-color:lightseagreen;
+    border-color:red;
+    border-width:10px;
+    width:750px;
+    margin-bottom:20px;
+    margin-left:30px;
+    padding:60px;
+    font-size:32px;
+    font-family:"Helvetica Neue", sans-serif;
+    font-weight:bold;
+    color:white;
+}
+
+h1 {
+    font-size:60px;
+}
