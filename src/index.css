@@ -15,26 +15,25 @@
 }
 
 .black-triangle {
-    background-color: mediumturquoise;
+    min-width: 360px;
 }
 
 h3 {
     position:absolute;
     font-weight:bold;
-    padding-left: 180px;
     color: white;
     font-size: 29px;
+    line-height: 29px;
     z-index: 1000;
 }
 
 h1 {
     position: absolute;
     font-weight:bold;
-    padding-left: 180px;
     color:white;
     font-size: 40px;
-    line-height: 42px;
-    margin-top: 70px;
+    line-height: 5px;
+    margin-top: 50px;
     z-index: 1000;
 }
 
@@ -44,9 +43,10 @@ h1 {
     background-position-x: center;
     z-index: 0;
     height: 0;
-    border-right: 1200px solid #48d1cc;
-    border-top: 800px solid #000000;
+    border-right: 1280px solid #48d1cc;
+    border-top: 1000px solid #000000;
     background-color:#48d1cc;
+
 }
 
 
