@@ -9,28 +9,28 @@
     }
 }
 
-    .racing-sans-one-regular {
+.racing-sans-one-regular {
     font-family: "Racing Sans One", sans-serif;
     font-style: normal;
 }
 
 
-
 h3 {
     font-weight:bold;
     color: white;
+    font-size: 29px;
 }
 
 h1 {
     font-weight:bold;
     color:white;
+    font-size: 40px;
 }
 
 .grid-cols-3 {
     display: grid;
+    grid-template-columns: 2fr 1fr 1fr;
     flex-wrap: wrap;
-
-
 }
 
 #hero {
@@ -39,25 +39,63 @@ max-height: fit-content;
 
 .sell-it {
 
-    text-align: center;
+    text-align: left;
     color: white;
-    margin-top: 20px;
-    margin-left: 40px;
+    font-size: 24px;
+    margin-top: 60px;
+    margin-left: 70px;
 }
 
 .estimate {
     font-weight: bold;
-    height: 150px;
+    height: 100px;
     width: 300px;
-    margin-top: 250px;
+    margin-top: 350px;
 }
 
 .rw {
     height: 400px;
     width: 400px;
-    margin: 30px;
+    margin: 60px;
+    object-fit: cover
+}
 
+.about-text {
+    font-size: 24px;
+    margin-top: 50px;
+    margin-bottom: 20px;
+    max-width: fit-content;
 
+}
 
+.about-section {
+    display: inline-block;
+    margin-left: 70px;
+    margin-right: 70px;
+    font-weight:bold;
+    margin-bottom:400px;
+}
 
+.about-para {
+    margin-bottom: 1em;
+}
+
+.cert {
+font-size: 20px;
+}
+
+.resume {
+align-content: center;
+    margin-right:0;
+
+}
+
+#gallery, #gallery2, #gallery3, #gallery4 {
+    margin-top:30px;
+    margin-bottom: 70px;
+}
+
+.slides {
+    width:1170px;
+    height:647px;
 }
