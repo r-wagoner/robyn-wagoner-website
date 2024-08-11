@@ -67,16 +67,13 @@ h1 {
 
 .list-sell {
     position: relative;
-    margin-top: -600px;
+    font-size: 20px;
+    margin-top: -10em;
+    margin-bottom: 20px;
+    clear: both;
 
 }
 
-.sell-it {
-    text-align: left;
-    color: black;
-    font-size: 24px;
-    z-index: 2000;
-}
 
 .estimate {
     font-weight: bold;
@@ -84,7 +81,7 @@ h1 {
     width: 300px;
     object-fit: cover;
     z-index: 1000;
-    margin-top: -300px;
+    margin-top: -10em;
     margin-right: 10px;
 
 }
@@ -94,7 +91,8 @@ h1 {
     height: 400px;
     width: 400px;
     object-fit: cover;
-    margin-top: -600px;
+    margin-top: -37em;
+    float-wrap: wrap;
 
 }
 
@@ -107,44 +105,78 @@ h1 {
 
 }
 
+
+
 .about-text {
     font-size: 24px;
-    margin-top: -180px;
-    max-width: fit-content;
+    margin-top: -150px;
+    margin-left: 60px;
+
 
 
 }
 
+.sell-it {
+    text-align: left;
+    margin-top: -50px;
+    color: black;
+    font-size: 24px;
+    z-index: 2000;
+}
 
 
 .about-para {
     margin-bottom: 1em;
 }
 
+.about-cert-resume {
+    display: grid;
+    grid-column: 3;
+    z-index: 10000
+}
+
 .cert {
-font-size: 20px;
+    font-size: 20px;
+    padding-bottom: 50px;
 }
 
 .resume {
-    align-content: center;
-    margin-right:0;
     background-color: mediumturquoise;
     color:black;
+    font-weight: bold;
+    height: 100px;
+    width: 300px;
+    z-index: 1000000;
+    justify-items: right;
+    object-fit: cover;
+}
 
+.arrow-down1 {
+    width: 0;
+    height: 0;
+    border-left: 235px solid white;
+    border-right:235px solid transparent;
+    border-top: 235px solid white;
 }
 
 .circle {
-    width: 0;
-    height: 0;
-    border: 200px solid #48d1cc;
-    border-radius: 200px;
-    margin-top:-200px;
+
+    position: absolute;
+    left:20%;
+    transform: translate(-50%, -50%);
+    height: 20em;
+    width: 30em;
+    border-radius: 25em 25em 0 0;
+    background-color: #48d1cc;
+
+
 
 }
 
 
 .work-section {
-    background-color: #48d1cc;;
+    background-color: #48d1cc;
+    z-index: 1000;
 }
 
 
@@ -159,3 +191,10 @@ font-size: 20px;
     width:1170px;
     height:647px;
 }
+
+
+
+
+
+
+
