@@ -16,6 +16,7 @@
 
 .black-triangle {
     min-width: 360px;
+    max-width: 1920px;
 }
 
 h3 {
@@ -40,11 +41,12 @@ h1 {
 
 .arrow-down {
     width:100%;
+    position:relative;
     background-position-x: center;
     z-index: 0;
     height: 0;
     border-right: 1280px solid #48d1cc;
-    border-top: 1000px solid #000000;
+    border-top: 900px solid #000000;
     background-color:#48d1cc;
 
 }
@@ -53,17 +55,25 @@ h1 {
 .grid-cols-3 {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
+    position: absolute;
     flex-wrap: wrap;
     margin-top:100px;
     background-color: transparent;
     z-index: 1000;
+    min-width: 360px;
+    max-width: 1920px;
 }
 
 
+.list-sell {
+    position: relative;
+    margin-top: -600px;
+
+}
+
 .sell-it {
-    margin-top: 100px;
     text-align: left;
-    color: white;
+    color: black;
     font-size: 24px;
     z-index: 2000;
 }
@@ -72,9 +82,10 @@ h1 {
     font-weight: bold;
     height: 100px;
     width: 300px;
-    margin-top: 350px;
     object-fit: cover;
     z-index: 1000;
+    margin-top: -300px;
+    margin-right: 10px;
 
 }
 
@@ -82,25 +93,29 @@ h1 {
     position: relative;
     height: 400px;
     width: 400px;
-    object-fit: cover
-
-}
-
-.about-text {
-    font-size: 24px;
-    margin-top: 50px;
-    margin-bottom: 20px;
-    max-width: fit-content;
+    object-fit: cover;
+    margin-top: -600px;
 
 }
 
 .about-section {
     display: inline-block;
-    margin-left: 70px;
-    margin-right: 70px;
     font-weight:bold;
-    margin-bottom:400px;
+    min-width: 360px;
+    max-width:1920px;
+    height: fit-content;
+
 }
+
+.about-text {
+    font-size: 24px;
+    margin-top: -180px;
+    max-width: fit-content;
+
+
+}
+
+
 
 .about-para {
     margin-bottom: 1em;
@@ -111,10 +126,29 @@ font-size: 20px;
 }
 
 .resume {
-align-content: center;
+    align-content: center;
     margin-right:0;
+    background-color: mediumturquoise;
+    color:black;
 
 }
+
+.circle {
+    width: 0;
+    height: 0;
+    border: 200px solid #48d1cc;
+    border-radius: 200px;
+    margin-top:-200px;
+
+}
+
+
+.work-section {
+    background-color: #48d1cc;;
+}
+
+
+
 
 #gallery, #gallery2, #gallery3, #gallery4 {
     margin-top:30px;
