@@ -14,36 +14,58 @@
     font-style: normal;
 }
 
+.black-triangle {
+    background-color: mediumturquoise;
+}
 
 h3 {
+    position:absolute;
     font-weight:bold;
+    padding-left: 180px;
     color: white;
     font-size: 29px;
+    z-index: 1000;
 }
 
 h1 {
+    position: absolute;
     font-weight:bold;
+    padding-left: 180px;
     color:white;
     font-size: 40px;
+    line-height: 42px;
+    margin-top: 70px;
+    z-index: 1000;
 }
+
+
+.arrow-down {
+    width:100%;
+    background-position-x: center;
+    z-index: 0;
+    height: 0;
+    border-right: 1200px solid #48d1cc;
+    border-top: 800px solid #000000;
+    background-color:#48d1cc;
+}
+
 
 .grid-cols-3 {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr;
+    grid-template-columns: 2fr 1fr 2fr;
     flex-wrap: wrap;
+    margin-top:100px;
+    background-color: transparent;
+    z-index: 1000;
 }
 
-#hero {
-max-height: fit-content;
-}
 
 .sell-it {
-
+    margin-top: 100px;
     text-align: left;
     color: white;
     font-size: 24px;
-    margin-top: 60px;
-    margin-left: 70px;
+    z-index: 2000;
 }
 
 .estimate {
@@ -51,13 +73,17 @@ max-height: fit-content;
     height: 100px;
     width: 300px;
     margin-top: 350px;
+    object-fit: cover;
+    z-index: 1000;
+
 }
 
 .rw {
+    position: relative;
     height: 400px;
     width: 400px;
-    margin: 60px;
     object-fit: cover
+
 }
 
 .about-text {
