@@ -2,8 +2,62 @@
 @tailwind components;
 @tailwind utilities;
 
-.racing-sans-one-regular {
+@media (min-width: 640px) {
+    .sm\:text-3xl {
+        font-size: 2rem /* 30px */;
+        line-height: 2.5rem /* 36px */;
+    }
+}
+
+    .racing-sans-one-regular {
     font-family: "Racing Sans One", sans-serif;
-    font-weight: 400;
     font-style: normal;
+}
+
+
+
+h3 {
+    font-weight:bold;
+    color: white;
+}
+
+h1 {
+    font-weight:bold;
+    color:white;
+}
+
+.grid-cols-3 {
+    display: grid;
+    flex-wrap: wrap;
+
+
+}
+
+#hero {
+max-height: fit-content;
+}
+
+.sell-it {
+
+    text-align: center;
+    color: white;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+.estimate {
+    font-weight: bold;
+    height: 150px;
+    width: 300px;
+    margin-top: 250px;
+}
+
+.rw {
+    height: 400px;
+    width: 400px;
+    margin: 30px;
+
+
+
+
 }
