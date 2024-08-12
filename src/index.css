@@ -185,30 +185,49 @@ h1 {
 .gallery{
     margin-top:6rem;
     margin-bottom: 70px;
+    z-index: 1000;
 }
 
 
 .gal-text {
 margin-left: 1rem;
+    z-index: 900;
 }
 
 .gallery-mobile {
-
+z-index: 1000
 }
 
 .circle2 {
     position:absolute;
-    margin-top: 0;
+    margin-top: 150px;
+    margin-left:50px;
     width: 0;
     height: 0;
-    border: 200px solid red;
-    border-radius: 200px;
+    border: 100px solid red;
+    border-radius: 100px;
     background-color: red;
+
 
 }
 
+.circle3 {
+    position:absolute;
+    margin-top: 30px;
+    margin-left: 30px;
+    width: 0;
+    height: 0;
+    border: 50px solid red;
+    border-radius: 50px;
+    background-color: red;
+}
+
+
+
+
 .contact-form {
     background-color: mediumturquoise;
+    z-index:100;
 }
 
 .footer-container {
