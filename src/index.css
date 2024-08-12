@@ -55,6 +55,7 @@ h1 {
 .grid-cols-3 {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
+    grid-auto-flow: column;
     position: absolute;
     flex-wrap: wrap;
     margin-top:100px;
@@ -128,6 +129,7 @@ h1 {
 .about-cert-resume {
     display: grid;
     grid-template-columns: 2fr 1fr 2fr;
+    grid-auto-flow: column;
     position: absolute;
     flex-wrap: wrap;
 
@@ -164,9 +166,9 @@ h1 {
     position: absolute;
     left:20%;
     transform: translate(-50%, -50%);
-    height: 20em;
-    width: 30em;
-    border-radius: 25em 25em 0 0;
+    height: 20rem;
+    width: 30rem;
+    border-radius: 25rem 25rem 0 0;
     background-color: #48d1cc;
 
 }
@@ -180,19 +182,48 @@ h1 {
 
 
 
-#gallery, #gallery2, #gallery3, #gallery4 {
-    margin-top:30px;
+.gallery{
+    margin-top:6rem;
     margin-bottom: 70px;
 }
 
-.slides {
-    width:1170px;
-    height:647px;
+
+.gal-text {
+margin-left: 1rem;
 }
 
+.gallery-mobile {
 
+}
 
+.circle2 {
+    position:absolute;
+    margin-top: 0;
+    width: 0;
+    height: 0;
+    border: 200px solid red;
+    border-radius: 200px;
+    background-color: red;
 
+}
 
+.contact-form {
+    background-color: mediumturquoise;
+}
+
+.footer-container {
+    background-color: red;
+}
+
+.footer {
+    display:block;
+    padding-left:12rem;
+    padding-top:3rem;
+    padding-bottom:4rem;
+}
+
+.footer-text3 {
+
+}
 
 
