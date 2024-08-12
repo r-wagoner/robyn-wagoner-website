@@ -106,14 +106,10 @@ h1 {
 }
 
 
-
 .about-text {
+    text-align: left;
     font-size: 24px;
     margin-top: -150px;
-    margin-left: 60px;
-
-
-
 }
 
 .sell-it {
@@ -126,18 +122,20 @@ h1 {
 
 
 .about-para {
-    margin-bottom: 1em;
+
 }
 
 .about-cert-resume {
     display: grid;
-    grid-column: 3;
-    z-index: 10000
+    grid-template-columns: 2fr 1fr 2fr;
+    position: absolute;
+    flex-wrap: wrap;
+
 }
 
 .cert {
-    font-size: 20px;
-    padding-bottom: 50px;
+    font-size: 1em;
+    padding-bottom: 4em;
 }
 
 .resume {
@@ -147,16 +145,18 @@ h1 {
     height: 100px;
     width: 300px;
     z-index: 1000000;
-    justify-items: right;
     object-fit: cover;
 }
 
 .arrow-down1 {
+    position:relative;
     width: 0;
     height: 0;
-    border-left: 235px solid white;
-    border-right:235px solid transparent;
-    border-top: 235px solid white;
+    border-left: 21em solid white;
+    border-right:21em solid transparent;
+    border-top: 21em solid white;
+    object-fit:cover;
+   margin-right:3em;
 }
 
 .circle {
@@ -168,8 +168,6 @@ h1 {
     width: 30em;
     border-radius: 25em 25em 0 0;
     background-color: #48d1cc;
-
-
 
 }
 
