@@ -14,20 +14,23 @@
     font-style: normal;
 }
 
+.nav-class {
+    z-index:1000000
+}
+
 .home-bg {
     position:absolute;
-    max-width: 1920px;
-    max-height: 1080px;
-    min-width: 360px;
-    min-height:800px;
-    z-index:-1000;
+    background-color: mediumturquoise;
+    z-index:-100;
     margin-top:0;
 }
+
 
 h3 {
     font-weight:bold;
     color: white;
     font-size: 29px;
+    padding-top:2rem;
     z-index: 1000;
 }
 
@@ -47,28 +50,28 @@ h1 {
     position: absolute;
     flex-wrap: wrap;
     margin-top:1rem;
-    background-color: transparent;
+    background-color: mediumturquoise;
     z-index: 1000;
-    min-width: 360px;
-    max-width: 1920px;
 }
 
 
 .list-sell {
-    position: relative;
-    font-size: 40px;
+    background-color: black;
+    grid-auto-flow: column;
 
 }
 
 
 .estimate {
     font-weight: bold;
+    font-size: 1.5rem;
     height: 100px;
     width: 300px;
     object-fit: cover;
     z-index: 1000;
     margin-top: 20rem;
     margin-right: 10px;
+    grid-auto-flow: column;
 
 }
 
@@ -77,24 +80,23 @@ h1 {
     height: 400px;
     width: 400px;
     margin-top: 2rem;
-    float-wrap: wrap;
+    z-index:1000;
+    grid-auto-flow: column;
+}
 
+
+.robyn {
+    font-size: 2.5rem;
 }
 
 .about-section {
     font-weight:bold;
-    min-width: 360px;
-    max-width:1920px;
     height: fit-content;
 
 }
 
 .about-bg {
     position:absolute;
-    max-width: 1920px;
-    max-height: 1080px;
-    min-width: 360px;
-    min-height:800px;
     z-index:-1000;
     margin-top:18rem;
 }
@@ -102,8 +104,9 @@ h1 {
 
 .about-text {
     display: inline-block;
-    font-size: 24px;
+    font-size: 4rem;
     margin-top: 21rem;
+    margin-left: 5rem;
     z-index: 2000;
 }
 
@@ -130,8 +133,8 @@ h1 {
 }
 
 .cert {
-    font-size: 1em;
-    padding-bottom: 4em;
+    font-size: 1rem;
+    padding-bottom: 4rem;
 }
 
 .resume {
@@ -148,30 +151,25 @@ h1 {
 
 .work-section {
     background-color: black;
-    margin-top: 38rem;
-    max-width: 1920px;
+    margin-top: 32rem;
     max-height: fit-content;
-    text-align: left;
-
 }
 
 .work-text {
     display:inline-block;
     margin-top: 2rem;
-
 }
 
 
-
-
 .gallery {
-    margin-top:15rem;
+    margin-top:1rem;
     margin-bottom: 70px;
 
 }
 
 
 .gal-text {
+    color: white;
 margin-left: 1rem;
 
 }
@@ -183,9 +181,6 @@ margin-left: 1rem;
 
 .contact-bg {
     position:absolute;
-    max-width: 1920px;
-    max-height: 1080px;
-    min-width: 360px;
     min-height:800px;
     z-index:-1000;
     margin-top:0;
