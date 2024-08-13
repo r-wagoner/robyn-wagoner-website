@@ -12,7 +12,7 @@
 <!---navbar section-->
 <section class="nav-class">
   <nav class="fixed w-full bg-transparent dark:bg-gray-900">
-    <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
+    <div class="flex flex-wrap items-center justify-between mx-auto mr-12 p-4">
         <span class="self-center text-3xl font-bold whitespace-nowrap dark:text-white"></span>
      <!---hamburger menu-->
       <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10
@@ -31,22 +31,21 @@
         dark:border-gray-700">
 
           <li>
-            <a href="#aboutanchor" class="block py-2 px-3 lg:text-2xl text-red-600 rounded focus:ring-2 focus:outline-none
-            focus:ring-red-600 hover:bg-transparent md:hover:bg-transparent
-            md:border-0 md:hover:text-gray-700 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700
-            dark:hover:text-white md:dark:hover:bg-transparent cursor-crosshair"><b>ABOUT</b></a>
+            <a href="#aboutanchor" class="block py-2 px-3 lg:text-2xl text-red-600 rounded focus:ring-2
+             focus:ring-red-600 bg-transparent md:border-0 md:hover:text-gray-700 md:p-0
+            dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700 dark:hover:text-white
+            cursor-crosshair"><b>ABOUT</b></a>
           </li>
           <li>
-            <a href="#workanchor" class="block py-2 px-3 lg:text-2xl text-red-600 rounded focus:ring-2 focus:outline-none
-            focus:ring-red-600 hover:bg-transparent md:hover:bg-transparent
-            md:border-0 md:hover:text-gray-700 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700
-            dark:hover:text-white md:dark:hover:bg-transparent cursor-crosshair"><b>WORK</b></a>
+            <a href="#workanchor" class="block py-2 px-3 lg:text-2xl text-red-600 rounded focus:ring-2 md:border-0
+            md:hover:text-gray-700 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700
+            dark:hover:text-white cursor-crosshair"><b>WORK</b></a>
           </li>
           <li>
-            <a href="#contactanchor" class="block py-2 px-3 lg:text-2xl text-red-600 rounded focus:ring-2 focus:outline-none
+            <a href="#contactanchor" class="block py-2 px-3 lg:text-2xl text-red-600 rounded focus:ring-2
             focus:ring-red-600 hover:bg-white-100 md:hover:bg-transparent
             md:border-0 md:hover:text-gray-700 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700
-            dark:hover:text-white md:dark:hover:bg-transparent cursor-crosshair"><b>CONTACT</b></a>
+            dark:hover:text-white bg-transparent cursor-crosshair"><b>CONTACT</b></a>
           </li>
         </ul>
       </div>
@@ -55,7 +54,6 @@
 </section>
 <!--hero section-->
 <section class="hero mt-0">
-  <img class="home-bg" src="/home-bg.png" alt="background turquoise and black"/>
   <h3 class="lg:text-8xl md:text-5xl mx-auto pl-20" >WEB DEVELOPER</h3>
   <h1 class="lg:text-9xl md:text-7xl pl-20">FULL-STACK</h1>
     <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="hero">
@@ -67,40 +65,38 @@
         <li>Design</li>
         <li>UI/UX</li>
       </ul>
-      <button class="estimate h-auto max-w-full mx-auto bg-red-600 border-black border-4 rounded-3xl py-2 px-8 lg:text-3xl
-    text-white mt-32 focus:ring-4 focus:outline-none focus:ring-white hover:bg-gray-700 text-center cursor-crosshair">
+      <button class="estimate md:mt-auto h-auto max-w-full mx-auto bg-red-600 border-black border-4 rounded-3xl py-2 px-8 lg:text-3xl
+    text-white focus:ring-4 focus:outline-none focus:ring-white hover:bg-gray-700 text-center cursor-crosshair">
         <a href="#contactanchor">REQUEST ESTIMATE
       </a></button>
-      <img class="rw object-cover h-auto max-w-full mx-auto" src="/rw-red1.png" alt="white woman with red
+      <img class="rw object-cover h-auto md:mt-auto max-w-full mx-auto" src="/rw-red1.png" alt="white woman with red
     and yellow hair and glasses"/>
-
     </div>
-  <h2 class="robyn text-black lg:text-9xl md:text-5xl text-right mr-20 mt-7 mb-20">Robyn Wagoner</h2>
+  <h2 class="robyn text-black lg:text-9xl md:text-5xl text-right mr-20 mt-7 pb-20">Robyn Wagoner</h2>
 </section>
 
 <!--about section-->
 <section class="about-section">
-  <img class="about-bg" src="/about-bg.png" alt="shapes"/>
-  <h4 class="about-text bg-white text-red-600 lg:text-5xl md:text-4xl mt-0 mx-auto p-5" id="aboutanchor"><b>ABOUT ME</b></h4>
-    <div class="sell-it h-auto mx-auto lg:text-3xl md:text-2xl mb-4 pl-20">
+  <h4 class="about-text bg-white text-red-600 lg:text-5xl md:text-4xl mx-auto" id="aboutanchor"><b>ABOUT ME</b></h4>
+    <div class="sell-it grid grid-cols-1 md:grid-cols-2 mx-auto lg:text-3xl md:text-2xl pl-20">
       <p><b>20 Years of WordPress Design Experience</b></p>
-    </div>
-    <p class="about-para md:text-2xl pl-20 pr-56">Specializing in web design, content creation, and project consulting with two
+    <p class="about-para md:mt-auto md:text-2xl pl-20 pr-56">Specializing in web design, content creation, and project consulting with two
       decades of experience in digital marketing, graphic design, and web development for social-profits and cooperatives.
       Proficient in <em>Adobe Creative Suite, Agile, CSS, Express, Git/GitHub, HTML, JavaScript, Next, Node.js, React,
       Rest, SQL, Tailwind, Typescript, Vim, Vite,</em> and <em>WordPress</em></p>
 
-    <div class="about-cert-resume grid grid-auto-fit my-20">
-  <ul class="cert grid md:text-2xl text-black pl-20">
+    <div class="about-cert-resume">
+  <ul class="cert md:mt-auto md:text-2xl text-black pl-20">
     <li>Certified in Full-Stack Web Development</li>
     <li>Certified in Cultural Competency</li>
     <li>Bachelor's in Media Production</li>
     <li>Master's in Environmental Studies</li>
   </ul>
-    <button class="resume grid border-black border-4 rounded-3xl py-2 px-8 lg:text-3xl
-    text-white mt-20 focus:ring-4 focus:ring-red-700 hover:bg-gray-700 hover:text-white text-center cursor-crosshair mr-0">
+    <button class="resume md:mt-auto border-black border-4 rounded-3xl py-2 px-8 lg:text-3xl
+    text-white focus:ring-4 focus:ring-red-700 hover:bg-gray-700 hover:text-white text-center cursor-crosshair mr-0">
       DOWNLOAD RESUME</button>
       </div>
+    </div>
 </section>
 
 

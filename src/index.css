@@ -2,12 +2,6 @@
 @tailwind components;
 @tailwind utilities;
 
-@media (min-width: 640px) {
-    .sm\:text-3xl {
-        font-size: 2rem /* 30px */;
-        line-height: 2.5rem /* 36px */;
-    }
-}
 
 .racing-sans-one-regular {
     font-family: "Racing Sans One", sans-serif;
@@ -18,12 +12,12 @@
     z-index:1000000
 }
 
-.home-bg {
-    position:absolute;
-    background-color: mediumturquoise;
-    z-index:-100;
-    margin-top:0;
+.hero {
+    background: url(/public/home-bg.png) no-repeat center center;
+    background-size: cover;
 }
+
+
 
 
 h3 {
@@ -69,7 +63,6 @@ h1 {
     width: 300px;
     object-fit: cover;
     z-index: 1000;
-    margin-top: 20rem;
     margin-right: 10px;
     grid-auto-flow: column;
 
@@ -86,55 +79,42 @@ h1 {
 
 
 .robyn {
-    font-size: 2.5rem;
+    font-size: 2rem;
 }
 
 .about-section {
+    background: url(/public/about-bg.png) no-repeat center center;
+    background-size: cover;
     font-weight:bold;
-    height: fit-content;
 
-}
-
-.about-bg {
-    position:absolute;
-    z-index:-1000;
-    margin-top:9rem;
 }
 
 
 .about-text {
     display: inline-block;
     font-size: 4rem;
-    margin-top: 10rem;
+    margin-top: 5rem;
     margin-left: 5rem;
-    z-index: 2000;
+
 }
 
 .sell-it {
     text-align: left;
-    margin-top: 5rem;
     color: black;
     font-size: 40px;
-    z-index: 2000;
-}
-
-
-.about-para {
 
 }
+
 
 .about-cert-resume {
     display: grid;
-    grid-template-columns: 2fr 1fr 2fr;
+    grid-template-columns: 3fr 1fr 2fr;
     grid-auto-flow: column;
-    position: absolute;
-    flex-wrap: wrap;
 
 }
 
 .cert {
     font-size: 1rem;
-    padding-bottom: 4rem;
 }
 
 .resume {
@@ -143,15 +123,10 @@ h1 {
     font-weight: bold;
     height: 100px;
     width: 300px;
-    z-index: 1000000;
-    object-fit: cover;
 }
-
-
 
 .work-section {
     background-color: black;
-    margin-top: 40rem;
     max-height: fit-content;
 }
 
