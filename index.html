@@ -1,4 +1,4 @@
-<!Doctype html>
+<!doctype html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
@@ -10,10 +10,10 @@
 </head>
 <body>
 <!---navbar section-->
-<section>
-  <nav class="bg-white dark:bg-gray-900">
+<section class="nav-class">
+  <nav class="fixed w-full bg-transparent dark:bg-gray-900">
     <div class="max-w-screen-xl flex flex-wrap items-center justify-between mx-auto p-4">
-        <span class="self-center text-3xl font-bold whitespace-nowrap dark:text-white">ROBYN WAGONER</span>
+        <span class="self-center text-3xl font-bold whitespace-nowrap dark:text-white"></span>
      <!---hamburger menu-->
       <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 w-10 h-10
       justify-center text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2
@@ -31,17 +31,20 @@
         dark:border-gray-700">
 
           <li>
-            <a href="#" class="block py-2 px-3 lg:text-2xl text-red-600 rounded hover:bg-white-100 md:hover:bg-transparent
+            <a href="#aboutanchor" class="block py-2 px-3 lg:text-2xl text-red-600 rounded focus:ring-2 focus:outline-none
+            focus:ring-red-600 hover:bg-transparent md:hover:bg-transparent
             md:border-0 md:hover:text-gray-700 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700
             dark:hover:text-white md:dark:hover:bg-transparent cursor-crosshair"><b>ABOUT</b></a>
           </li>
           <li>
-            <a href="#" class="block py-2 px-3 lg:text-2xl text-red-600 rounded hover:bg-white-100 md:hover:bg-transparent
+            <a href="#workanchor" class="block py-2 px-3 lg:text-2xl text-red-600 rounded focus:ring-2 focus:outline-none
+            focus:ring-red-600 hover:bg-transparent md:hover:bg-transparent
             md:border-0 md:hover:text-gray-700 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700
             dark:hover:text-white md:dark:hover:bg-transparent cursor-crosshair"><b>WORK</b></a>
           </li>
           <li>
-            <a href="#" class="block py-2 px-3 lg:text-2xl text-red-600 rounded hover:bg-white-100 md:hover:bg-transparent
+            <a href="#contactanchor" class="block py-2 px-3 lg:text-2xl text-red-600 rounded focus:ring-2 focus:outline-none
+            focus:ring-red-600 hover:bg-white-100 md:hover:bg-transparent
             md:border-0 md:hover:text-gray-700 md:p-0 dark:text-white md:dark:hover:text-red-500 dark:hover:bg-gray-700
             dark:hover:text-white md:dark:hover:bg-transparent cursor-crosshair"><b>CONTACT</b></a>
           </li>
@@ -51,48 +54,44 @@
   </nav>
 </section>
 <!--hero section-->
-<section class="black-triangle max-w-screen-xl flex justify-between mx-auto p-4">
-  <h3 class="lg:text-8xl md:text-5xl mx-auto mt-0 p-6" >WEB DEVELOPER</h3>
-  <h1 class="lg:text-9xl md:text-7xl lg:pt-16 p-6 ">FULL-STACK</h1>
-  <div class="arrow-down font-sans font-weight:bold text-white">
-  </div>
-</section>
-<section class="hero max-w-screen-xl flex justify-between mx-auto p-4">
-  <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="hero">
-    <ul class="list-sell text-white lg:text-6xl med:text-4xl h-auto max-w-full mx-auto;
-">
-      <li>Functionality</li>
-      <li>Accessibility</li>
-      <li>Branding</li>
-      <li>Security</li>
-      <li>Design</li>
-      <li>UI/UX</li>
-    </ul>
-
-    <button class="estimate h-auto max-w-full mx-auto bg-red-600 border-black border-4 rounded-3xl py-2 px-8 lg:text-3xl
+<section class="hero mt-0">
+  <img class="home-bg" src="/home-bg.png" alt="background turquoise and black"/>
+  <h3 class="lg:text-8xl md:text-5xl mx-auto pl-20" >WEB DEVELOPER</h3>
+  <h1 class="lg:text-9xl md:text-7xl pl-20">FULL-STACK</h1>
+    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4" id="hero">
+      <ul class="text-white lg:text-6xl med:text-4xl h-auto pl-20">
+        <li>Functionality</li>
+        <li>Accessibility</li>
+        <li>Branding</li>
+        <li>Security</li>
+        <li>Design</li>
+        <li>UI/UX</li>
+      </ul>
+      <button class="estimate h-auto max-w-full mx-auto bg-red-600 border-black border-4 rounded-3xl py-2 px-8 lg:text-3xl
     text-white mt-32 focus:ring-4 focus:outline-none focus:ring-white hover:bg-gray-700 text-center cursor-crosshair">
-      REQUEST ESTIMATE
-    </button>
-    <img class="rw h-auto max-w-full mx-auto" src="/rw-red1.png" alt="white woman with red
+        <a href="#contactanchor">REQUEST ESTIMATE
+      </a></button>
+      <img class="rw object-cover h-auto max-w-full mx-auto" src="/rw-red1.png" alt="white woman with red
     and yellow hair and glasses"/>
-  </div>
+
+    </div>
+  <h2 class="robyn text-black lg:text-9xl md:text-5xl text-right mr-20 mt-7 mb-20">Robyn Wagoner</h2>
 </section>
 
 <!--about section-->
-<section class="about-section" id=“about_anchor”>
-  <div class="about-me mx-auto p-20">
-  <h4 class="about-text bg-white text-red-600 lg:text-5xl md:text-4xl
-mx-auto p-20" ><b>ABOUT ME</b></h4>
-    <div class="sell-it h-auto max-w-full mx-auto lg:text-3xl md:text-2xl mb-4">
+<section class="about-section">
+  <img class="about-bg" src="/about-bg.png" alt="shapes"/>
+  <h4 class="about-text bg-white text-red-600 lg:text-5xl md:text-4xl mt-0 mx-auto p-5" id="aboutanchor"><b>ABOUT ME</b></h4>
+    <div class="sell-it h-auto mx-auto lg:text-3xl md:text-2xl mb-4 pl-20">
       <p><b>20 Years of WordPress Design Experience</b></p>
     </div>
-    <p class="about-para md:text-2xl">Specializing in web design, content creation, and project consulting with two
+    <p class="about-para md:text-2xl pl-20 pr-56">Specializing in web design, content creation, and project consulting with two
       decades of experience in digital marketing, graphic design, and web development for social-profits and cooperatives.
       Proficient in <em>Adobe Creative Suite, Agile, CSS, Express, Git/GitHub, HTML, JavaScript, Next, Node.js, React,
       Rest, SQL, Tailwind, Typescript, Vim, Vite,</em> and <em>WordPress</em></p>
 
     <div class="about-cert-resume grid grid-auto-fit my-20">
-  <ul class="cert grid md:text-2xl text-black">
+  <ul class="cert grid md:text-2xl text-black pl-20">
     <li>Certified in Full-Stack Web Development</li>
     <li>Certified in Cultural Competency</li>
     <li>Bachelor's in Media Production</li>
@@ -101,136 +100,139 @@ mx-auto p-20" ><b>ABOUT ME</b></h4>
     <button class="resume grid border-black border-4 rounded-3xl py-2 px-8 lg:text-3xl
     text-white mt-20 focus:ring-4 focus:ring-red-700 hover:bg-gray-700 hover:text-white text-center cursor-crosshair mr-0">
       DOWNLOAD RESUME</button>
-      <div class="arrow-down1 grid bg-red-600"></div>
       </div>
-    </div>
 </section>
 
 
 <!--work section-->
 
 <section>
-  <div class="work-section mt-96">
-    <div class="circle">
-    </div>
-    <h4 class="work-text text-white bg-red-600 p-4 lg:text-5xl md:text-4xl
- h-auto max-w-lg mt-10 ms-auto"><b>MY WORK</b></h4>
+  <div class="work-section" id="workanchor">
+    <h4 class="work-text text-white bg-red-600 p-4 ml-20 lg:text-5xl md:text-4xl mb-7"><b>MY WORK</b></h4>
 <!--gallery1-->
-
-
-    <div class="gallery grid grid-cols-1 md:grid-cols-2 gap-10 font-bold">
+    <h4 class="gallery-mobile-txt text-white md:text-3xl pl-20">Sample Desktop Versions</h4>
+    <div class="gallery grid grid-cols-1 md:grid-cols-2 gap-10 p-20 font-bold">
       <div>
-        <p class="gal-text">Rio Grande Community Farm</p>
+
         <img class="h-auto max-w-full rounded-lg" src="/RGCF.png" alt="Rio Grande Community Farm">
+        <p class="gal-text">Rio Grande Community Farm</p>
       </div>
       <div>
-        <p class="gal-text">Rio Grande Community Farm</p>
+
         <img class="h-auto max-w-full rounded-lg" src="/RGCF-3.png" alt="Rio Grande Community Farm">
+        <p class="gal-text">Rio Grande Community Farm</p>
       </div>
 
       <div>
-        <p class="gal-text">University of New Mexico Center for Environmental Arts & Humanities</p>
+
         <img class="h-auto max-w-full rounded-lg" src="/UNM.png" alt="University of New Mexico Center for Environmental
         Arts and Humanities">
+        <p class="gal-text">University of New Mexico Center for Environmental Arts & Humanities</p>
       </div>
       <div>
-        <p class="gal-text">University of New Mexico Center for Environmental Arts & Humanities</p>
+
         <img class="h-auto max-w-full rounded-lg" src="/UNM-1.png" alt="University of New Mexico Center for
         Environmental Arts and Humanities">
+        <p class="gal-text">University of New Mexico Center for Environmental Arts & Humanities</p>
       </div>
 
       <div>
-        <p class="gal-text">Rio Grande Building & Storage</p>
+
         <img class="h-auto max-w-full rounded-lg" src="/RGBS-1.png" alt="Rio Grande Building and Storage">
-      </div>
-      <div>
         <p class="gal-text">Rio Grande Building & Storage</p>
+      </div>
+      <div>
+
         <img class="h-auto max-w-full rounded-lg" src="/RGBS-3.png" alt="Rio Grande Building and Storage">
+        <p class="gal-text">Rio Grande Building & Storage</p>
       </div>
 
       <div>
-        <p class="gal-text">Eleventh Hour Ministry</p>
+
         <img class="h-auto max-w-full rounded-lg" src="/EH.png" alt="Eleventh Hour Ministry">
-      </div>
-      <div>
         <p class="gal-text">Eleventh Hour Ministry</p>
+      </div>
+      <div>
+
         <img class="h-auto max-w-full rounded-lg" src="/EH-2.png" alt="Eleventh Hour Ministry">
+        <p class="gal-text">Eleventh Hour Ministry</p>
       </div>
 
       <div>
-        <p class="gal-text">Crawford's Attractions</p>
+
         <img class="h-auto max-w-full rounded-lg" src="/CA.png" alt="Crawford's Attractions">
+        <p class="gal-text">Crawford's Attractions</p>
       </div>
       <div>
-        <p class="gal-text">Crawford's Attractions</p>
+
         <img class="h-auto max-w-full rounded-lg" src="/CA-2.png" alt="Crawford's Attractions">
+        <p class="gal-text">Crawford's Attractions</p>
       </div>
 
       <div>
-        <p class="gal-text">Robyn Wagoner Portfolio</p>
+
         <img class="h-auto max-w-full rounded-lg" src="/RW-1.png" alt="Robyn Wagoner Portfolio">
+        <p class="gal-text">Robyn Wagoner Portfolio</p>
         </div>
       <div>
-        <p class="gal-text">Robyn Wagoner Portfolio</p>
+
         <img class="h-auto max-w-full rounded-lg" src="/RW-5.png" alt="Robyn Wagoner Portfolio">
+        <p class="gal-text">Robyn Wagoner Portfolio</p>
       </div>
 
       <div>
-        <p class="gal-text">Crypto Conan</p>
+
         <img class="h-auto max-w-full rounded-lg" src="/CC.png" alt="Crypto Conan">
-      </div>
-      <div>
         <p class="gal-text">Crypto Conan</p>
+      </div>
+      <div>
+
         <img class="h-auto max-w-full rounded-lg" src="/CC-1.png" alt="Crypto Conan">
+        <p class="gal-text">Crypto Conan</p>
       </div>
       </div>
-    <div class="gallery-mobile grid grid-cols-2 md:grid-cols-6 gap-10 font-bold">
+    <h4 class="gallery-mobile-txt text-white md:text-3xl pl-20">Sample Mobile Versions</h4>
+    <div class="gallery-mobile grid grid-cols-2 md:grid-cols-6 gap-10 p-20 font-bold">
       <div>
-        <p class="gal-text">Rio Grande Community Farm Mobile</p>
+
         <img class="h-auto max-w-full rounded-lg" src="/RGCF-M1.jpg" alt="Rio Grande Community Farm Mobile">
+        <p class="gal-text">Rio Grande Community Farm Mobile</p>
       </div>
       <div>
-        <p class="gal-text">Rio Grande Community Farm Mobile</p>
+
         <img class="h-auto max-w-full rounded-lg" src="/RGCF-M2.jpg" alt="Rio Grande Community Farm Mobile">
-      </div>
-      <div>
         <p class="gal-text">Rio Grande Community Farm Mobile</p>
+      </div>
+      <div>
+
         <img class="h-auto max-w-full rounded-lg" src="/RGCF-MO.png" alt="Rio Grande Community Farm Mobile">
+        <p class="gal-text">Rio Grande Community Farm Mobile</p>
       </div>
 
       <div>
-        <p class="gal-text">Crawford's Attractions Mobile</p>
+
         <img class="h-auto max-w-full rounded-lg" src="/CA-M1.jpg" alt="Crawford's Attractions Mobile">
+        <p class="gal-text">Crawford's Attractions Mobile</p>
       </div>
       <div>
-        <p class="gal-text">Rio Grande Building & Storage Mobile</p>
+
         <img class="h-auto max-w-full rounded-lg" src="/RGBS-MO.jpg" alt="Rio Grande Building & Storage Mobile">
+        <p class="gal-text">Rio Grande Building & Storage Mobile</p>
       </div>
       <div>
-        <p class="gal-text">Crypto Conan Mobile</p>
+
         <img class="h-auto max-w-full rounded-lg" src="/CC-MO.png" alt="Crypto Conan Mobile">
+        <p class="gal-text">Crypto Conan Mobile</p>
       </div>
-
-
-
     </div>
-
-
-
   </div>
 </section>
 <!--contact section-->
 
-
-
-
   <section class="contact-form dark:bg-gray-900">
-    <div class="circle2">
-    </div>
-    <div class="circle3">
-    </div>
-    <div class="py-8 lg:py-16 px-4 mx-auto max-w-screen-md">
-      <h2 class="mb-4  lg:text-5xl md:text-4xl tracking-tight font-extrabold text-center text-white dark:text-white">
+     <img src="/contact-bg1.png" alt="more shapes"/>
+    <div class="mx-auto max-w-screen-md">
+      <h2 class="mb-4 lg:text-5xl md:text-4xl tracking-tight font-extrabold text-center text-white dark:text-white">
         CONTACT ME</h2>
       <form action="#" class="space-y-8">
         <div>
@@ -264,7 +266,7 @@ mx-auto p-20" ><b>ABOUT ME</b></h4>
   </section>
 
 
-<section class="footer-container">
+<section class="footer-container" id="contactanchor">
   <footer class="footer mx-auto justify-center bg-red-600 font-bold">
     <h5 class="table-footer-group font-bold bg-red-600 text-white md:text-2xl">FULL-STACK WEB DEVELOPER </h5>
     <h4 class="table-footer-group bg-red-600 text-white md:text-4xl">ROBYN WAGONER</h4>

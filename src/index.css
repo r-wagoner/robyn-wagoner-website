@@ -98,21 +98,21 @@ h1 {
 .about-bg {
     position:absolute;
     z-index:-1000;
-    margin-top:18rem;
+    margin-top:9rem;
 }
 
 
 .about-text {
     display: inline-block;
     font-size: 4rem;
-    margin-top: 21rem;
+    margin-top: 10rem;
     margin-left: 5rem;
     z-index: 2000;
 }
 
 .sell-it {
     text-align: left;
-    margin-top: 10rem;
+    margin-top: 5rem;
     color: black;
     font-size: 40px;
     z-index: 2000;
@@ -151,7 +151,7 @@ h1 {
 
 .work-section {
     background-color: black;
-    margin-top: 32rem;
+    margin-top: 40rem;
     max-height: fit-content;
 }
 
@@ -171,10 +171,6 @@ h1 {
 .gal-text {
     color: white;
 margin-left: 1rem;
-
-}
-
-.gallery-mobile {
 
 }
 
