@@ -94,8 +94,8 @@ h1 {
     display: inline-block;
     font-size: 2.5rem;
     line-height: 2.5rem;
-    margin-top: 10rem;
-    margin-bottom: 5rem;
+    margin-top: 7rem;
+    margin-bottom: 7rem;
 
 }
 
@@ -103,7 +103,7 @@ h1 {
     text-align: left;
     color: black;
     font-size: 28px;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
 
 }
 
@@ -126,10 +126,10 @@ h1 {
 .resume {
     background-color: mediumturquoise;
     color:black;
+    font-size: 20px;
     font-weight: bold;
     height: 100px;
     width: 300px;
-    margin-bottom: 14rem;
     grid-auto-flow: column;
 
 
@@ -170,6 +170,10 @@ margin-left: 1rem;
     margin-top:0;
 }
 
+.contact-text {
+    font-size: 2.5rem;
+}
+
 
 .contact-form {
     background-color: mediumturquoise;
@@ -183,13 +187,10 @@ margin-left: 1rem;
 
 .footer {
     display:block;
-    padding-left:12rem;
     padding-top:3rem;
     padding-bottom:4rem;
 }
 
-.footer-text3 {
 
-}
 
 
