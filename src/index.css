@@ -10,6 +10,7 @@
 }
 
 .nav-class {
+    font-family:"Protest Strike", sans-serif;
     z-index:1000000
 }
 
@@ -22,11 +23,10 @@
 
 
 h3 {
-
+    font-family:"Protest Strike", sans-serif;
     font-weight:bold;
     color: white;
     font-size: 29px;
-    padding-top:.5rem;
     z-index: 1000;
 }
 
@@ -94,6 +94,7 @@ h1 {
 
 
 .about-text {
+    font-family:"Protest Strike", sans-serif;
     display: inline-block;
     font-size: 2.5rem;
     line-height: 2.5rem;
@@ -144,6 +145,7 @@ h1 {
 }
 
 .work-text {
+    font-family:"Protest Strike", sans-serif;
     display:inline-block;
     margin-top: 6rem;
     font-size: 2.5rem;
@@ -174,6 +176,7 @@ margin-left: 1rem;
 }
 
 .contact-text {
+    font-family:"Protest Strike", sans-serif;
     font-size: 2.5rem;
 }
 
@@ -193,6 +196,10 @@ margin-left: 1rem;
     display:block;
     padding-top:3rem;
     padding-bottom:4rem;
+}
+
+h4, h5 {
+    font-family:"Protest Strike", sans-serif;
 }
 
 
