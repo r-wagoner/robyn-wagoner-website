@@ -3,8 +3,9 @@
 @tailwind utilities;
 
 
-.racing-sans-one-regular {
-    font-family: "Racing Sans One", sans-serif;
+.protest-strike-regular {
+    font-family: "Protest Strike", sans-serif;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -21,14 +22,16 @@
 
 
 h3 {
+
     font-weight:bold;
     color: white;
     font-size: 29px;
-    padding-top:2rem;
+    padding-top:.5rem;
     z-index: 1000;
 }
 
 h1 {
+    font-family:"Protest Strike", sans-serif;
     font-weight:bold;
     color:white;
     font-size: 40px;
@@ -180,6 +183,7 @@ margin-left: 1rem;
     z-index:1000;
 
 }
+
 
 .footer-container {
     background-color: red;
