@@ -25,4 +25,4 @@ jobs:
       - name: Deploy to server
         run: |
           ssh-keyscan -H coderiot.org >> ~/.ssh/known_hosts 
-          scp -r ./dist/* gkephart@coderiot.org:/var/www/coderiot.org/html
+          scp -r ./dist/* rwagoner@coderiot.org:/var/www/coderiot.org/html
