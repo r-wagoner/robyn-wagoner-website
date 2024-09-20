@@ -155,6 +155,15 @@ h1 {
 }
 
 
+.engage-text {
+    font-family:"Protest Strike", sans-serif;
+    display:inline-block;
+    margin-top: 0;
+    font-size: 2.5rem;
+    line-height: 2.5rem;
+}
+
+
 .gallery {
     margin-top:1rem;
     margin-bottom: 70px;
