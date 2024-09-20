@@ -58,7 +58,10 @@ h1 {
 
 }
 
-.shout {
+.shouting {
+    height:400px;
+    width:400px;
+
 
 }
 
@@ -116,6 +119,8 @@ h1 {
 
 .about-para {
     font-size: 16px;
+    display: inline-block;
+    width: 90rem;
 }
 
 
@@ -199,6 +204,15 @@ h4, h5 {
     font-family:"Protest Strike", sans-serif;
 }
 
+.pricing {
+    z-index: 10000;
+    margin-top: -90rem;
+    font-weight:bold;
+}
 
+.sling {
+    height: 1000px;
+    margin-left: 40rem;
+}
 
 
