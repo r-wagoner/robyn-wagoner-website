@@ -215,6 +215,7 @@ h4, h5 {
 
 .pricing {
     z-index: 10000;
+    margin-top: -90rem;
     font-weight:bold;
 }
 
