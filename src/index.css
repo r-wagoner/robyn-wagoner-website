@@ -20,8 +20,6 @@
 }
 
 
-
-
 h3 {
     font-family:"Protest Strike", sans-serif;
     font-weight:bold;
@@ -39,7 +37,6 @@ h1 {
 }
 
 
-
 .grid-cols-3 {
     display: grid;
     grid-template-columns: 2fr 2fr 1fr;
@@ -51,18 +48,15 @@ h1 {
     z-index: 1000;
 }
 
-
 .list-sell {
     background-color: black;
     grid-auto-flow: column;
 
 }
 
-.shouting {
-    height:400px;
-    width:400px;
-
-
+.protest2 {
+    height:350px;
+    width:700px;
 }
 
 .estimate {
@@ -74,7 +68,6 @@ h1 {
     z-index: 1000;
     margin-right: 10px;
     grid-auto-flow: column;
-
 }
 
 .rw {
@@ -95,7 +88,6 @@ h1 {
     background: url(/public/about-bg.png) no-repeat center center;
     background-size: cover;
     font-weight:bold;
-
 }
 
 
@@ -104,9 +96,8 @@ h1 {
     display: inline-block;
     font-size: 2.5rem;
     line-height: 2.5rem;
-    margin-top: 5rem;
+    margin-top: 2.5rem;
     margin-bottom: 5rem;
-
 }
 
 .sell-it {
@@ -114,7 +105,6 @@ h1 {
     color: black;
     font-size: 28px;
     margin-bottom: 2rem;
-
 }
 
 .about-para {
@@ -122,12 +112,15 @@ h1 {
     display: inline-block;
 }
 
+.about-para1 {
+    font-size: 18px;
+}
+
 
 .about-cert-resume {
     display: grid;
     grid-template-columns: 3fr 1fr 2fr;
     grid-auto-flow: column;
-
 }
 
 .cert {
@@ -136,8 +129,6 @@ h1 {
 
 .resume {
     grid-auto-flow: column;
-
-
 }
 
 .work-section {
@@ -153,25 +144,51 @@ h1 {
     line-height: 2.5rem;
 }
 
-.engage-text {
-
+.man {
+    height:200px;
+    margin-left:20px;
+    padding-top:20px;
 }
 
 
 .gallery {
     margin-top:1rem;
     margin-bottom: 70px;
-
 }
 
 
 .gal-text {
     color: white;
-margin-left: 1rem;
-    font-size: 15px;
-
+    margin-left: 1rem;
+    font-size: 16px;
 }
 
+.wrench {
+    height:200px;
+    margin-left:20px;
+    padding-top:50px;
+    padding-bottom: 20px;
+}
+
+.gallery-mobile-txt {
+    font-size: 16px;
+}
+
+.engage-text {
+    font-family:"Protest Strike", sans-serif;
+    display:inline-block;
+    font-size: 2.5rem;
+    line-height: 2.5rem
+}
+
+.pricing {
+    z-index: 10000;
+    font-weight:bold;
+}
+
+.price-grid {
+    z-index: 1000
+}
 
 .contact-bg {
     position:absolute;
@@ -180,8 +197,9 @@ margin-left: 1rem;
     margin-top:0;
 }
 
-.price-grid {
-    z-index: 1000
+.slingshot {
+    background-color: mediumturquoise;
+    z-index: 1000;
 }
 
 .contact-text {
@@ -189,13 +207,14 @@ margin-left: 1rem;
     font-size: 2.5rem;
 }
 
-
 .contact-form {
     background-color: mediumturquoise;
     z-index:1000;
-
 }
 
+.shouting7 {
+
+}
 
 .footer-container {
     background-color: red;
@@ -211,14 +230,8 @@ h4, h5 {
     font-family:"Protest Strike", sans-serif;
 }
 
-.pricing {
-    z-index: 10000;
-    font-weight:bold;
-}
 
-.slingshot {
-    height: 300px;
 
-}
+
 
 
